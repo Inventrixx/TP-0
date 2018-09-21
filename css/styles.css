@@ -1,0 +1,83 @@
+.main-container {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  height: auto;
+  width: auto;
+  margin: auto;
+}
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.text-container {
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+  height: auto;
+}
+.email-container {
+  display: inline-block;
+}
+
+.input-email {
+  width: 200px;
+  border: 1px solid black;
+  height: 25px;
+}
+
+.button {
+  border-radius: 5%;
+  width: 100px;
+  height: 25px;
+  background-color:#d98cb3;
+  border:none;
+  color: white;
+  margin-left: 5px;
+  font-weight: 650;
+}
+
+.icons {
+  color: #d98cb3;
+  font-size: 40px;
+}
+
+.twitter-icon {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.ins-icon {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.fb-icon {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+footer {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 15px;
+}
+
+a {
+  color:  #d98cb3;
+}
+
+@media (min-width: 800px) {
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
